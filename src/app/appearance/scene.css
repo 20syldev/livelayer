@@ -1,0 +1,42 @@
+/* Blurred room standing in for the camera on the landing demo */
+@theme static {
+    --color-scene-pillar: rgb(16 18 22 / 0.45);
+    --color-scene-glow-a: rgb(255 200 140 / 0.32);
+    --color-scene-glow-b: rgb(255 190 130 / 0.24);
+    --color-scene-glow-c: rgb(170 190 215 / 0.24);
+    --color-scene-glow-d: rgb(190 205 225 / 0.28);
+    --color-scene-floor: rgb(10 8 7 / 0.75);
+
+    --background-image-scene-wash:
+        radial-gradient(
+            ellipse 62% 40% at 14% 19%,
+            rgb(138 90 58 / 0.95) 0%,
+            rgb(138 90 58 / 0.5) 36%,
+            rgb(138 90 58 / 0) 72%
+        ),
+        radial-gradient(
+            ellipse 48% 58% at 98% 36%,
+            rgb(58 74 94 / 0.9) 0%,
+            rgb(58 74 94 / 0.4) 44%,
+            rgb(58 74 94 / 0) 78%
+        ),
+        radial-gradient(ellipse 80% 30% at 42% 60%, rgb(104 70 48 / 0.4) 0%, rgb(104 70 48 / 0) 72%),
+        linear-gradient(180deg, #221b17 0%, #1b1714 52%, #110e0c 100%);
+    --background-image-scene-beam: linear-gradient(90deg, rgb(0 0 0 / 0) 0%, rgb(0 0 0 / 0.2) 50%, rgb(0 0 0 / 0) 100%);
+    --background-image-scene-lamp: radial-gradient(
+        circle,
+        rgb(255 218 172 / 0.8) 0%,
+        rgb(240 172 112 / 0.38) 34%,
+        rgb(240 172 112 / 0) 70%
+    );
+    --background-image-scene-window: linear-gradient(
+        180deg,
+        rgb(150 172 198 / 0.34) 0%,
+        rgb(96 114 138 / 0.22) 55%,
+        rgb(58 74 94 / 0.06) 100%
+    );
+    --background-image-scene-camera:
+        radial-gradient(ellipse 70% 45% at 20% 22%, rgb(214 150 98 / 0.95) 0%, rgb(214 150 98 / 0) 70%),
+        radial-gradient(ellipse 55% 60% at 100% 40%, rgb(90 118 152 / 0.95) 0%, rgb(90 118 152 / 0) 75%),
+        linear-gradient(180deg, #3a2c24 0%, #1b1714 100%);
+}

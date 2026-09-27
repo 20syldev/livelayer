@@ -1,0 +1,139 @@
+@theme {
+    --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+    --color-background: oklch(1 0 0);
+    --color-foreground: oklch(0.145 0 0);
+
+    --color-muted: oklch(0.97 0 0);
+    --color-muted-foreground: oklch(0.556 0 0);
+
+    --color-card: oklch(1 0 0);
+    --color-card-foreground: oklch(0.145 0 0);
+
+    --color-popover: oklch(1 0 0);
+    --color-popover-foreground: oklch(0.145 0 0);
+
+    --color-primary: oklch(0.205 0 0);
+    --color-primary-foreground: oklch(0.985 0 0);
+
+    --color-secondary: oklch(0.97 0 0);
+    --color-secondary-foreground: oklch(0.205 0 0);
+
+    --color-accent: oklch(0.97 0 0);
+    --color-accent-foreground: oklch(0.205 0 0);
+
+    --color-destructive: oklch(0.577 0.245 27.325);
+
+    --color-border: oklch(0.922 0 0);
+    --color-input: oklch(0.922 0 0);
+    --color-ring: oklch(0.708 0 0);
+
+    --radius-lg: 0.5rem;
+    --radius-md: calc(var(--radius-lg) - 2px);
+    --radius-sm: calc(var(--radius-md) - 2px);
+}
+
+/* Inline: the font variables live on <html> (or the /app wrapper), resolved where used */
+@theme inline {
+    --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+    --font-ui: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+    /* Landing + /app semantic tokens, switched by the .dark class (see below) */
+    --color-paper: var(--paper);
+    --color-ink: var(--ink);
+    --color-soft: var(--soft);
+    --color-quiet: var(--quiet);
+    --color-tile: var(--tile);
+    --color-line: var(--line);
+    --color-line-soft: var(--line-soft);
+    --color-rule: var(--rule);
+    --color-brand: var(--brand);
+    --color-tile-yellow: var(--tile-yellow);
+    --color-tile-mint: var(--tile-mint);
+    --color-tile-peach: var(--tile-peach);
+    --color-tile-lilac: var(--tile-lilac);
+    --color-tile-sky: var(--tile-sky);
+    --color-tile-pink: var(--tile-pink);
+    --color-tile-ink: var(--tile-ink);
+    --color-up: var(--up);
+}
+
+/* Same in both themes: highlighter and the text that goes on it, text on the ink tile */
+@theme {
+    --color-highlight: #ffd84d;
+    --color-on-highlight: #0b0b0e;
+    --color-on-ink: #ffffff;
+    --color-on-ink-soft: #d8d8e0;
+}
+
+/* Landing palette, light ("Affiche"). Also read by the dark /app wrapper through .dark below */
+:root {
+    --rule: #0b0b0e;
+    --hard: var(--ink);
+    --tile-yellow: #ffd84d;
+    --tile-mint: #bdefd3;
+    --tile-peach: #ffcdb8;
+    --tile-lilac: #e4d6ff;
+    --tile-sky: #c5e3ff;
+    --tile-pink: #ffc1d3;
+    --tile-ink: #0b0b0e;
+}
+
+/* Light core of the landing palette, shared by the page and by the pastel surfaces that stay light in dark */
+@layer base {
+    :root,
+    .tile-scope {
+        --paper: #ffffff;
+        --ink: #0b0b0e;
+        --soft: #3c3c46;
+        --quiet: #55555f;
+        --tile: #f2f1f4;
+        --line: #0b0b0e;
+        --line-soft: #e4e2ea;
+        --brand: #d9365e;
+        --up: #0e8f5f;
+    }
+}
+
+.dark {
+    --color-background: #0b0b0e;
+    --color-foreground: #f5f5f7;
+
+    --color-muted: #1e1e25;
+    --color-muted-foreground: #8e8e99;
+
+    --color-card: #15151a;
+    --color-card-foreground: #f5f5f7;
+
+    --color-popover: #1e1e25;
+    --color-popover-foreground: #f5f5f7;
+
+    --color-primary: #f5f5f7;
+    --color-primary-foreground: #0b0b0e;
+
+    --color-secondary: #1e1e25;
+    --color-secondary-foreground: #f5f5f7;
+
+    --color-accent: #2a2a33;
+    --color-accent-foreground: #f5f5f7;
+
+    --color-destructive: #ff6b6b;
+
+    --color-border: rgb(255 255 255 / 0.08);
+    --color-input: rgb(255 255 255 / 0.12);
+    --color-ring: #ff5c8a;
+
+    /* Landing palette, dark: same poster on #0B0B0E, the pastel tiles keep their light values (see tile-scope) */
+    --paper: #0b0b0e;
+    --ink: #f5f5f7;
+    --soft: #b4b4be;
+    --quiet: #a0a0ab;
+    --tile: #15151a;
+    --line: #e4e2ea;
+    --line-soft: #2a2a32;
+    --rule: #3a3a45;
+    --hard: var(--color-highlight);
+    --brand: #ff5c8a;
+    --tile-ink: #15151a;
+    --up: #3ddc97;
+}

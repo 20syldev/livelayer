@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@import "./appearance/theme.css";
+@import "./appearance/live.css";
+@import "./appearance/scene.css";
+@import "./appearance/motion.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+    * {
+        @apply border-border;
+        scrollbar-width: none;
+    }
+    button,
+    a,
+    [role="button"] {
+        cursor: pointer;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+        html {
+            scroll-behavior: smooth;
+        }
+    }
+    body {
+        @apply bg-background text-foreground font-sans antialiased;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Pastel surfaces stay light in both themes: the light core above is re-declared on them (see :root, .tile-scope) */
+@utility tile-scope {
+    color: var(--ink);
+}
+
+/* Picture-like surfaces (live screen, phone demo, mock UI): no text selection, no image dragging or callout */
+@utility visual {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    & img {
+        pointer-events: none;
+        -webkit-user-drag: none;
+    }
+    & input,
+    & textarea {
+        user-select: text;
+        -webkit-user-select: text;
+    }
+}
+
+/* Oldest comments fade out towards the top of their list */
+@utility comment-fade {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 35%);
+    mask-image: linear-gradient(to bottom, transparent 0, #000 35%);
+}
+
+/* Rising hearts fade out under the top edge of their box */
+@utility rise-fade {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 28%);
+    mask-image: linear-gradient(to bottom, transparent 0, #000 28%);
+}
+
+/* No grey flash on tap for buttons that style their own pressed state */
+@utility tap-transparent {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Brand gradient: the primary CTA of the app and the landing panels */
+.brand-gradient,
+.panel-gradient {
+    background-image: linear-gradient(120deg, #d9365e 0%, #b5268a 55%, #6b2fa8 100%);
+}
+
+.panel-gradient {
+    color: #ffffff;
+}

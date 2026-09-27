@@ -1,0 +1,88 @@
+@theme {
+    /* Config kit (dark) */
+    --color-ground: #0b0b0e;
+    --color-surface: #1e1e25;
+    --color-raised: #2a2a33;
+    --color-hairline: rgb(255 255 255 / 0.08);
+    --color-caption: #8e8e99;
+    --color-pink: #ff5c8a;
+    --color-danger: #ff6b6b;
+    --color-success: #3ddc97;
+
+    /* Glow under the brand gradient CTA */
+    --shadow-brand: 0 8px 24px rgb(181 38 138 / 0.3);
+}
+
+/* Live screen palette: Instagram-faithful and identical in light and dark, the live is always dark. Static so that
+   var(--...) strings used from TypeScript always resolve */
+@theme static {
+    /* System UI stack like the native app (SF on iOS, Roboto on Android); the countdown uses the Display cut */
+    --font-live:
+        -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+    --font-live-display:
+        -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+
+    /* Like heart red, video card base while the camera is off, supporter chips by tier, viewers pill */
+    --color-like: #ed4956;
+    --color-scene: #1b1714;
+    --color-chip-1: #f56040;
+    --color-chip-2: #e1306c;
+    --color-chip-viewers: rgb(70 70 70 / 0.6);
+
+    /* Composer "Post" link, end screen "Done" button, end alert destructive action, alert surface */
+    --color-live-link: #4cb5f9;
+    --color-live-blue: #0074d9;
+    --color-live-alert: #f55565;
+    --color-live-dialog: #262626;
+
+    /* Share sheet (Instagram iOS dark) */
+    --color-sheet: #212328;
+    --color-sheet-field: #2b3036;
+    --color-sheet-text: #f5f5f5;
+    --color-sheet-muted: #a8a8a8;
+    --color-sheet-icon: #8e8e8e;
+    --color-sheet-line: #363636;
+    --color-sheet-grabber: #5c6066;
+    --color-sheet-toast: #3a3d42;
+    --color-sheet-accent: #4a5df9;
+    --color-sheet-online: #58c322;
+    --color-sheet-online-bg: #1f3a27;
+    --color-sheet-avatar: #c7c7c7;
+
+    /* Config screen: empty avatar initial, round buttons over the preview, sheet grabber, disabled CTA label */
+    --color-avatar-empty: #4a4a55;
+    --color-overlay: rgb(18 18 22 / 0.55);
+    --color-overlay-hover: rgb(18 18 22 / 0.75);
+    --color-grabber: #3a3a44;
+    --color-disabled: #9e9ea8;
+
+    /* Comment mix bar: join and badge segments (comments reuse --color-pink) */
+    --color-kind-join: #a78bfa;
+    --color-kind-badge: #f5b14c;
+
+    /* Gradients, used as bg-live-badge, bg-scrim-top... (background-image namespace) */
+    --background-image-live-badge: linear-gradient(90deg, #cf0070, #e01a78);
+    --background-image-logo-badge: linear-gradient(110deg, #c7016b, #de1a76);
+    --background-image-badge-shine: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.32), transparent);
+    --background-image-chip-3: linear-gradient(90deg, #c13584, #833ab4);
+    --background-image-scrim-top: linear-gradient(180deg, rgb(0 0 0 / 0.35) 0%, rgb(0 0 0 / 0) 100%);
+    --background-image-scrim-bottom: linear-gradient(180deg, rgb(0 0 0 / 0) 0%, rgb(0 0 0 / 0.55) 100%);
+    --background-image-live-fallback: linear-gradient(160deg, #1a0a2e 0%, #0d0d0d 40%, #1a0510 70%, #0d0d0d 100%);
+
+    /* Shadows and glows: box (shadow-*), text (text-shadow-*), drop-shadow (drop-shadow-*) */
+    --shadow-phone: 0 44px 70px -24px rgb(24 0 48 / 0.6), inset 0 0 0 2px rgb(255 255 255 / 0.16);
+    --shadow-knob: 0 1px 3px rgb(0 0 0 / 0.35);
+    --shadow-knob-lg: 0 2px 8px rgb(0 0 0 / 0.45);
+    --shadow-drawer: 0 -16px 48px rgb(0 0 0 / 0.45);
+    --shadow-toast: 0 12px 32px rgb(0 0 0 / 0.45);
+    --shadow-sheet-toast: 0 4px 16px rgb(0 0 0 / 0.35);
+    --shadow-heart-photo: 0 1px 3px rgb(0 0 0 / 0.3);
+    --text-shadow-live: 0 1px 2px rgb(0 0 0 / 0.45);
+    --drop-shadow-glyph: 0 1px 2px rgb(0 0 0 / 0.25);
+    --drop-shadow-icon: 0 1px 2px rgb(0 0 0 / 0.35);
+    --drop-shadow-icon-sm: 0 1px 1px rgb(0 0 0 / 0.35);
+
+    /* iOS sheet spring approximation, new comment entrance */
+    --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
+    --animate-comment-appear: comment-appear 0.2s ease forwards;
+}
