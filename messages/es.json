@@ -1,0 +1,187 @@
+{
+    "metadata": {
+        "title": "LiveLayer - Simulador de Instagram Live",
+        "description": "Simula la pantalla de un Instagram Live en tu móvil para hacer demos, pruebas y ensayos. Configura espectadores, comentarios y reacciones en segundos. Gratis y sin cuenta.",
+        "shortDescription": "Simula la pantalla de un Instagram Live para hacer demos, pruebas y ensayos.",
+        "keywords": "simulador instagram live, demo instagram live, simulador de directo, maqueta instagram live, vista previa de directo, ensayar instagram live"
+    },
+    "common": {
+        "skip": "Saltar al contenido"
+    },
+    "notFound": {
+        "title": "Este directo no existe",
+        "description": "La página que buscas ha salido del streaming. Vuelve al inicio o abre el simulador.",
+        "home": "Volver al inicio",
+        "simulator": "Abrir el simulador"
+    },
+    "landing": {
+        "bento": {
+            "pill": "Dentro del simulador",
+            "title": "Una demo que parece de verdad.",
+            "intro": "Prueba los ajustes aquí mismo: hacen exactamente lo mismo que en tu móvil.",
+            "audienceTitle": "Una audiencia que sube y luego se estabiliza",
+            "audienceText": "Define un mínimo, un máximo y un escenario: los picos de espectadores llegan justo a tiempo.",
+            "scenarioLabel": "Escenario de audiencia",
+            "scenarioPotes": "Entre amigos",
+            "scenarioCreateur": "Creador",
+            "scenarioViral": "Viral",
+            "peakCaption": "espectadores en el pico",
+            "range": "Mín. {min} / Máx. {max}",
+            "chartLabel": "Curva de audiencia, escenario {scenario}: entre {min} y {max} espectadores, con un pico de {peak}.",
+            "axisStart": "Inicio",
+            "cameraTitle": "Tu cámara, de fondo",
+            "cameraText": "La cámara frontal es opcional y nunca sale de tu móvil.",
+            "cameraSwitch": "Cámara frontal",
+            "cameraOn": "Cámara frontal activada",
+            "cameraOff": "Cámara frontal desactivada",
+            "durationTitle": "Con duración, o sin ella",
+            "durationLabel": "Duración del directo",
+            "durationMinutes": "{minutes} min",
+            "durationUnlimited": "Ilimitada",
+            "durationEndTitle": "El directo ha terminado",
+            "durationEndText": "Pantalla final tras {minutes} min ({time})",
+            "durationOpenTitle": "Sin final programado",
+            "durationOpenText": "El directo sigue hasta que lo dejes",
+            "commentsTitle": "Comentarios que llegan solos",
+            "commentsText": "Entradas, mensajes, insignias compradas: todo se desplaza a un ritmo natural.",
+            "heartsTitle": "Corazones de tu color",
+            "heartsText": "Elige el tono de los corazones que suben por la pantalla.",
+            "heartsLabel": "Color de los corazones",
+            "heartRed": "Rojo",
+            "heartPink": "Rosa",
+            "heartYellow": "Amarillo",
+            "heartGreen": "Verde",
+            "heartBlue": "Azul",
+            "langTitle": "En tu idioma",
+            "langText": "Comentarios generados en francés, inglés o español.",
+            "langLabel": "Idioma de los comentarios",
+            "langFr": "Français",
+            "langEn": "English",
+            "langEs": "Español"
+        },
+        "cta": {
+            "title": "¿Listo para tu <hl>ensayo</hl>?",
+            "lead": "Gratis y sin cuenta. Abre LiveLayer en tu móvil y haz tu primera demo en menos de un minuto.",
+            "button": "Abrir el simulador",
+            "note": "Pensado para tu móvil: en un ordenador, ábrelo desde tu teléfono."
+        },
+        "demo": {
+            "label": "Vista previa animada de la pantalla de un Instagram Live",
+            "description": "Instagram Live simulado: los comentarios no paran de llegar, el número de espectadores se mueve y los corazones suben. Puedes dar me gusta o escribir un comentario."
+        },
+        "faq": {
+            "pill": "FAQ",
+            "title": "¿Tienes dudas?",
+            "intro": "Respuestas cortas, antes de tu primera demo.",
+            "what": {
+                "q": "¿Qué es exactamente LiveLayer?",
+                "a": "Un simulador de la pantalla de Instagram Live que abres en tu móvil. Eliges la audiencia, el idioma de los comentarios y la duración, y empiezas la demo. Es gratis y no hay que crear ninguna cuenta."
+            },
+            "real": {
+                "q": "¿Inicia un directo real en Instagram?",
+                "a": "No. LiveLayer es un proyecto independiente, sin relación con Instagram ni con Meta. La pantalla es una simulación: no se publica nada, no se vincula ninguna cuenta y nadie recibe una notificación."
+            },
+            "exit": {
+                "q": "¿Cómo salgo del directo en mitad de una demo?",
+                "a": "La X de arriba a la derecha pide confirmación y luego muestra la pantalla final. Para salir al instante, sin pantalla final, toca tres veces el nombre del anfitrión arriba a la izquierda: tu demo queda limpia hasta el final."
+            },
+            "data": {
+                "q": "¿Adónde van mis datos y mi cámara?",
+                "a": "A ninguna parte. Todo se queda en tu dispositivo, cámara incluida: no se envía nada a otro sitio. La cámara frontal es opcional, solo la activas si quieres tu cara de fondo."
+            },
+            "iphone": {
+                "q": "¿Cómo lo pongo a pantalla completa en iPhone?",
+                "a": "Abre LiveLayer en Safari, toca Compartir y luego «Añadir a pantalla de inicio». Después ábrelo desde su icono: se abre a pantalla completa de verdad, sin barra de direcciones."
+            }
+        },
+        "footer": {
+            "disclaimer": "Proyecto independiente, sin relación con Instagram ni Meta. La pantalla es una simulación pensada para demos y ensayos. Nada sale de tu dispositivo."
+        },
+        "hero": {
+            "title1": "Tu live de",
+            "title2": "Instagram,",
+            "titleMark": "en demo.",
+            "lead": "LiveLayer simula la pantalla de un Instagram Live en tu móvil: espectadores que entran, comentarios que se desplazan, corazones que suben. Perfecto para presentar, probar y practicar.",
+            "cta": "Abrir el simulador",
+            "how": "Ver cómo funciona",
+            "checkFree": "Gratis",
+            "checkNoAccount": "Sin cuenta",
+            "checkOnDevice": "Todo se queda en tu móvil",
+            "notice": "Proyecto independiente, sin relación con Instagram ni Meta. La pantalla es una simulación pensada para demos y ensayos.",
+            "chipCount": "+1.240",
+            "chipLabel": "espectadores",
+            "chipBought": "compró una insignia",
+            "sticker": "DEMOS / PRUEBAS / ENSAYOS /"
+        },
+        "nav": {
+            "label": "Navegación principal",
+            "uses": "Usos",
+            "steps": "Cómo funciona",
+            "features": "Funciones",
+            "faq": "FAQ",
+            "try": "Probar",
+            "openMenu": "Abrir el menú",
+            "closeMenu": "Cerrar el menú",
+            "languages": {
+                "fr": "Français",
+                "en": "English",
+                "es": "Español"
+            },
+            "language": "Idioma",
+            "switchTo": "Cambiar a {language}",
+            "theme": "Cambiar entre tema claro y oscuro"
+        },
+        "steps": {
+            "pill": "3 pasos",
+            "title": "Cómo funciona",
+            "intro": "Sin registro, sin instalación. Lo configuras, lo inicias y presentas.",
+            "one": {
+                "title": "Configura tu directo",
+                "text": "Elige la audiencia, el idioma de los comentarios y la duración. Si quieres, añade tu cámara de fondo.",
+                "audience": "Audiencia",
+                "friends": "Amigos",
+                "creator": "Creador",
+                "viral": "Viral",
+                "max": "Máximo",
+                "maxValue": "2.400"
+            },
+            "two": {
+                "title": "Lanza la cuenta atrás",
+                "text": "3, 2, 1… y la pantalla pasa a pantalla completa, con la interfaz de directo que conoces."
+            },
+            "three": {
+                "title": "Haz tu demo",
+                "text": "Entran espectadores, suben corazones. Para salir, toca tres veces con discreción en la esquina superior izquierda.",
+                "live": "EN DIRECTO",
+                "viewers": "2,4k",
+                "comment": "me encanta tu energía",
+                "joined": "{user} se unió"
+            }
+        },
+        "uses": {
+            "pill": "Usos",
+            "title": "¿Para qué sirve?",
+            "intro": "Siempre que necesites ver (o enseñar) cómo se ve un directo, sin esperar a emitir de verdad.",
+            "demos": {
+                "title": "Demos",
+                "text": "Enseña a un cliente o a tu equipo cómo será un directo, antes de que exista.",
+                "tags": "Clientes, Equipos"
+            },
+            "tests": {
+                "title": "Pruebas",
+                "text": "Prueba un diseño, un idioma, un tamaño de audiencia. Graba la pantalla para tu maqueta.",
+                "tags": "Diseño, Dev, Marketing"
+            },
+            "practice": {
+                "title": "Práctica",
+                "text": "Ensaya tu presentación y acostúmbrate a los comentarios que se desplazan y a una audiencia que sube.",
+                "tags": "Creadores, Moderadores"
+            },
+            "talks": {
+                "title": "Presentaciones",
+                "text": "Para un taller o una formación: explica el vídeo en directo con una pantalla que se mueve de verdad.",
+                "tags": "Talleres, Formación"
+            }
+        }
+    }
+}

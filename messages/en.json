@@ -1,0 +1,187 @@
+{
+    "metadata": {
+        "title": "LiveLayer - Instagram Live Simulator",
+        "description": "Simulate an Instagram Live screen on your phone to demo, test and rehearse. Set the viewers, comments and reactions in seconds. Free, no account needed.",
+        "shortDescription": "Simulate an Instagram Live screen to demo, test and rehearse.",
+        "keywords": "instagram live simulator, instagram live demo, live simulator, instagram live mockup, live screen preview, rehearse instagram live"
+    },
+    "common": {
+        "skip": "Skip to content"
+    },
+    "notFound": {
+        "title": "This live doesn’t exist",
+        "description": "The page you’re looking for has left the stream. Head back home or open the simulator.",
+        "home": "Back to home",
+        "simulator": "Open the simulator"
+    },
+    "landing": {
+        "bento": {
+            "pill": "Inside the simulator",
+            "title": "A demo that looks the part.",
+            "intro": "Try the settings right here: they do exactly what they will do on your phone.",
+            "audienceTitle": "An audience that climbs, then settles",
+            "audienceText": "Set a minimum, a maximum and a scenario: viewer peaks land right on schedule.",
+            "scenarioLabel": "Audience scenario",
+            "scenarioPotes": "Just friends",
+            "scenarioCreateur": "Creator",
+            "scenarioViral": "Viral",
+            "peakCaption": "viewers at the peak",
+            "range": "Min {min} / Max {max}",
+            "chartLabel": "Audience curve, {scenario} scenario: between {min} and {max} viewers, peaking at {peak}.",
+            "axisStart": "Start",
+            "cameraTitle": "Your camera, in the back",
+            "cameraText": "The front camera is optional, and it never leaves your phone.",
+            "cameraSwitch": "Front camera",
+            "cameraOn": "Front camera on",
+            "cameraOff": "Front camera off",
+            "durationTitle": "A length, or none",
+            "durationLabel": "Live length",
+            "durationMinutes": "{minutes} min",
+            "durationUnlimited": "Unlimited",
+            "durationEndTitle": "The live has ended",
+            "durationEndText": "End screen after {minutes} min ({time})",
+            "durationOpenTitle": "No scheduled end",
+            "durationOpenText": "The live runs until you leave it",
+            "commentsTitle": "Comments that show up on their own",
+            "commentsText": "Joins, messages, badges bought: it all scrolls at a natural pace.",
+            "heartsTitle": "Hearts in your color",
+            "heartsText": "Pick the shade of the hearts floating up the screen.",
+            "heartsLabel": "Heart color",
+            "heartRed": "Red",
+            "heartPink": "Pink",
+            "heartYellow": "Yellow",
+            "heartGreen": "Green",
+            "heartBlue": "Blue",
+            "langTitle": "In your language",
+            "langText": "Comments generated in French, English or Spanish.",
+            "langLabel": "Comment language",
+            "langFr": "Français",
+            "langEn": "English",
+            "langEs": "Español"
+        },
+        "cta": {
+            "title": "Ready for your <hl>rehearsal</hl>?",
+            "lead": "Free, no account. Open LiveLayer on your phone and run your first demo in under a minute.",
+            "button": "Launch the simulator",
+            "note": "Made for your phone: on a computer, open it from your mobile."
+        },
+        "demo": {
+            "label": "Animated preview of an Instagram Live screen",
+            "description": "Simulated Instagram Live: comments keep coming in, the viewer count moves and hearts float up. You can like it or write a comment."
+        },
+        "faq": {
+            "pill": "FAQ",
+            "title": "Got questions?",
+            "intro": "Short answers, before your first demo.",
+            "what": {
+                "q": "What exactly is LiveLayer?",
+                "a": "An Instagram Live screen simulator you open on your phone. You pick the audience, the comment language and the duration, then start the demo. It is free and there is no account to create."
+            },
+            "real": {
+                "q": "Does it start a real live on Instagram?",
+                "a": "No. LiveLayer is an independent project, not affiliated with Instagram or Meta. The screen is a simulation: nothing is published, no account is linked and nobody gets a notification."
+            },
+            "exit": {
+                "q": "How do I leave the live in the middle of a demo?",
+                "a": "The X at the top right asks for confirmation, then shows the end screen. To leave instantly, with no end screen, triple-tap the host name at the top left: your demo stays clean to the very end."
+            },
+            "data": {
+                "q": "Where do my data and my camera go?",
+                "a": "Nowhere. Everything stays on your device, camera included: nothing is sent anywhere else. The front camera is optional, you turn it on only if you want your face in the background."
+            },
+            "iphone": {
+                "q": "How do I get it fullscreen on iPhone?",
+                "a": "Open LiveLayer in Safari, tap Share, then \"Add to Home Screen\". Launch it from its icon afterwards: it opens in true fullscreen, with no address bar."
+            }
+        },
+        "footer": {
+            "disclaimer": "Independent project, not affiliated with Instagram or Meta. The screen is a simulation made for demos and practice. Nothing leaves your device."
+        },
+        "hero": {
+            "title1": "Demo your",
+            "title2": "Instagram",
+            "titleMark": "Live.",
+            "lead": "LiveLayer simulates an Instagram Live screen on your phone: viewers joining, comments scrolling, hearts floating up. Perfect for presenting, testing and practicing.",
+            "cta": "Launch the simulator",
+            "how": "See how it works",
+            "checkFree": "Free",
+            "checkNoAccount": "No account",
+            "checkOnDevice": "Everything stays on your phone",
+            "notice": "Independent project, not affiliated with Instagram or Meta. The screen is a simulation built for demos and practice.",
+            "chipCount": "+1,240",
+            "chipLabel": "viewers",
+            "chipBought": "bought a badge",
+            "sticker": "DEMOS / TESTS / PRACTICE /"
+        },
+        "nav": {
+            "label": "Main navigation",
+            "uses": "Use cases",
+            "steps": "How it works",
+            "features": "Features",
+            "faq": "FAQ",
+            "try": "Try it",
+            "openMenu": "Open menu",
+            "closeMenu": "Close menu",
+            "languages": {
+                "fr": "Français",
+                "en": "English",
+                "es": "Español"
+            },
+            "language": "Language",
+            "switchTo": "Switch to {language}",
+            "theme": "Switch between light and dark theme"
+        },
+        "steps": {
+            "pill": "3 steps",
+            "title": "How it works",
+            "intro": "No sign-up, no install. You set it up, start it, and present.",
+            "one": {
+                "title": "Set up your live",
+                "text": "Pick the audience, the comment language and the duration. If you like, add your camera in the background.",
+                "audience": "Audience",
+                "friends": "Friends",
+                "creator": "Creator",
+                "viral": "Viral",
+                "max": "Maximum",
+                "maxValue": "2,400"
+            },
+            "two": {
+                "title": "Start the countdown",
+                "text": "3, 2, 1… and the screen goes fullscreen, with the live interface you know."
+            },
+            "three": {
+                "title": "Run your demo",
+                "text": "Viewers join, hearts rise. To leave, triple-tap discreetly in the top-left corner.",
+                "live": "LIVE",
+                "viewers": "2.4K",
+                "comment": "love your energy",
+                "joined": "{user} joined"
+            }
+        },
+        "uses": {
+            "pill": "Use cases",
+            "title": "What is it for?",
+            "intro": "Whenever you need to see (or show) what a live looks like, without waiting to go live for real.",
+            "demos": {
+                "title": "Demos",
+                "text": "Show a client or your team what a live will look like, before it even exists.",
+                "tags": "Clients, Teams"
+            },
+            "tests": {
+                "title": "Tests",
+                "text": "Try a layout, a language, an audience size. Record the screen for your mockup.",
+                "tags": "Design, Dev, Marketing"
+            },
+            "practice": {
+                "title": "Practice",
+                "text": "Rehearse your hosting, and get used to scrolling comments and a climbing audience.",
+                "tags": "Creators, Moderators"
+            },
+            "talks": {
+                "title": "Presentations",
+                "text": "For a workshop or a training: explain live video with a screen that actually moves.",
+                "tags": "Workshops, Training"
+            }
+        }
+    }
+}
